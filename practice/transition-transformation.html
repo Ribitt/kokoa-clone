@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Welcome to my Kakao Clone" />
+    <meta name="author" content="Nomad coders" />
+    <link href=styles.css" rel="stylesheet">
+    <title>Transformations</title>
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .buttonBox {
+        height: 13px;
+        width: 60px;
+        color: white;
+        font-size: 7px;
+        text-align: center;
+        padding-top: 2px;
+        background-color: #84817a;
+        border-radius: 20px;
+        margin-bottom: 10px;
+
+        transition: all 0.5s ease-out;
+      }
+      .buttonBox:hover {
+        background-color: #aaa69d;
+        box-shadow: 1px 1px 1px#d1ccc0;
+      }
+      img {
+        height: 50px;
+        width: auto;
+        transition: all 0.5s ease-in-out;
+      }
+
+      img:hover {
+        transform: rotate(125deg) scale(0.7);
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="buttonBox">I'm a button</div>
+    <img src="https://avatars2.githubusercontent.com/u/3612017?v=4" />
+  </body>
+</html>
