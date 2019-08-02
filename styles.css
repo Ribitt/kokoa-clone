@@ -1,0 +1,11 @@
+body {
+  height: 1500px;
+}
+
+.blue {
+  background-color: #7ed6df;
+  height: 1400px;
+  width: 100%;
+  position: relative;
+  top: 100px;
+}

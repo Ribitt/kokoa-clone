@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Welcome to my Kakao Clone" />
+    <meta name="author" content="Nomad coders" />
+    <link href=styles.css" rel="stylesheet">
+    <title>This is kakao cloning</title>
+    <style>
+      body {
+        height: 100%;
+        background-color: #0984e3;
+      }
+      .bigBox {
+        display: flex;
+        height: 500px;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .pinkBox {
+        background-color: #ff7675;
+        height: 200px;
+        width: 200px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .greyBox {
+        background-color: #dfe6e9;
+        height: 50px;
+        width: 50px;
+        z-index: 2;
+      }
+      .greyBox:nth-child(2):hover {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bigBox">
+      <div class="pinkBox">
+        <div class="greyBox"></div>
+        <div class="greyBox"></div>
+        <div class="greyBox"></div>
+      </div>
+    </div>
+  </body>
+</html>
