@@ -3,6 +3,7 @@
 @import "C:/nomad-coder/kokoa-clone/css/status-bar.css";
 @import "C:/nomad-coder/kokoa-clone/css/header.css";
 @import "C:/nomad-coder/kokoa-clone/css/nav-bar.css";
+@import "C:/nomad-coder/kokoa-clone/css/friend.css";
 
 * {
   box-sizing: border-box;
@@ -18,8 +19,4 @@ body {
 
 a {
   color: inherit;
-}
-.g-avatar {
-  height: 50px;
-  width: auto;
 }
