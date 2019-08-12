@@ -4,6 +4,7 @@
 @import "C:/nomad-coder/kokoa-clone/css/header.css";
 @import "C:/nomad-coder/kokoa-clone/css/nav-bar.css";
 @import "C:/nomad-coder/kokoa-clone/css/friend.css";
+@import "C:/nomad-coder/kokoa-clone/css/friends.css";
 
 * {
   box-sizing: border-box;
@@ -19,4 +20,5 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
