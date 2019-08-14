@@ -2,13 +2,20 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  align-items: center;
   color: black;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .status-bar i {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .status-bar .status-bar__battery-level {
-  margin-left: 5px;
+  margin-left: 3px;
+}
+
+.status-bar .fa-battery-full {
+  font-size: 19px;
 }
