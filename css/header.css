@@ -25,3 +25,13 @@
   font-size: 20px;
   margin-right: 10px;
 }
+
+.set-header {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.set-header .header__title {
+  margin: 0px 170px;
+}
