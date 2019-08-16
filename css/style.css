@@ -8,13 +8,15 @@
 @import "C:/nomad-coder/kokoa-clone/css/find.css";
 @import "C:/nomad-coder/kokoa-clone/css/more.css";
 @import "C:/nomad-coder/kokoa-clone/css/settings.css";
+@import "C:/nomad-coder/kokoa-clone/css/chat.css";
+
 * {
   box-sizing: border-box;
 }
 body {
   background-color: white;
   padding: 10px 20px;
-  height: 1000px;
+  height: 500px;
   color: #0e0e0e;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
