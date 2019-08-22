@@ -9,7 +9,7 @@
 .chats-body .header {
   padding: 0 20px;
 }
-.chat {
+.chat-screen {
   background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
   min-height: 120vh;
   color: wheat;

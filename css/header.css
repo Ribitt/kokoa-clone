@@ -6,7 +6,7 @@
 }
 
 .header .header__title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -34,4 +34,9 @@
 
 .set-header .header__title {
   margin: 0px 170px;
+}
+
+.header.header-chats {
+  display: flex;
+  justify-content: space-between;
 }
