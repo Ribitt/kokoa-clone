@@ -1,15 +1,26 @@
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: white;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chats-body {
   padding: 0px;
+  padding-top: 118px;
 }
 
 .chats-body .status-bar {
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .chats-body .header {
   padding: 0 20px;
 }
-.chat-screen {
+.chats-body {
   background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
   min-height: 120vh;
   color: #8c6564;
