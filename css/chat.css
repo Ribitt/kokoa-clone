@@ -12,7 +12,7 @@
 .chat-screen {
   background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
   min-height: 120vh;
-  color: wheat;
+  color: #8c6564;
 }
 
 .chat__write {
@@ -24,8 +24,8 @@
   left: 0;
   right: 0;
   border-radius: 40px;
-  box-shadow: 0 13px 27px -5px#1D3244, 0 8px 16px -8px rgb(88, 88, 88),
-    0 -6px 16px -6px #1d3244;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,4 +49,56 @@
 
 .chat__write-column input:focus {
   outline: none;
+}
+
+.chat-screen .chat__msg {
+  border-top: 1px solid #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+  padding-top: 30px;
+}
+
+.chat__msg .chat__timestamp {
+  background-color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 10px 20px;
+  text-transform: uppercase;
+}
+
+.msg {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.msg .msg__content {
+  width: 90%;
+}
+
+.incoming-msg {
+  align-self: flex-start;
+}
+
+.sent-msg {
+  align-self: flex-end;
+}
+
+.incoming-msg img {
+  width: 30px;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.msg .msg__bubble {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
