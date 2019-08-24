@@ -23,7 +23,7 @@
 .chats-body {
   background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
   min-height: 120vh;
-  color: #8c6564;
+  color: black;
 }
 
 .chat__write-container {
@@ -104,6 +104,7 @@
   align-items: center;
   padding: 0px 20px;
   padding-top: 30px;
+  color: black;
 }
 
 .chat__msg .chat__timestamp {
@@ -148,6 +149,8 @@
   background-color: white;
   padding: 10px 20px;
   border-radius: 20px;
+  color: white;
+  font-weight: 600;
 }
 
 .incoming-msg .msg__author {
@@ -159,8 +162,10 @@
 
 .incoming-msg .msg__bubble {
   border-bottom-left-radius: 0px;
+  background-image: linear-gradient(to right, #acc1ce, #775876);
 }
 
 .sent-msg .msg__bubble {
   border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to right, #83687d, #e4928c);
 }
