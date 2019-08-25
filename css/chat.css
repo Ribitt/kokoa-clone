@@ -23,7 +23,7 @@
 }
 .chats-body {
   background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
-  min-height: 120vh;
+  height: 2000px;
   color: black;
 }
 
@@ -99,7 +99,6 @@
 }
 
 .chat-screen .chat__msg {
-  border-top: 1px solid #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,10 +137,21 @@
   align-self: flex-end;
 }
 
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-msg img {
   width: 30px;
   border-radius: 12px;
   margin-right: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 10px 20px;
+  animation: spin 1s linear infinite;
 }
 
 .msg .msg__bubble {
