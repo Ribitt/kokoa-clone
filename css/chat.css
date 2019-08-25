@@ -11,6 +11,7 @@
 .chats-body {
   padding: 0px;
   padding-top: 118px;
+  overflow: hidden;
 }
 
 .chats-body .status-bar {
@@ -168,4 +169,34 @@
 .sent-msg .msg__bubble {
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to right, #83687d, #e4928c);
+}
+
+@keyframes incomingAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.incoming-msg {
+  animation: incomingAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes sentAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.sent-msg {
+  animation: sentAnimation 0.7s ease-in-out forwards;
 }
