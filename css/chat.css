@@ -210,3 +210,7 @@
 .sent-msg {
   animation: sentAnimation 0.7s ease-in-out forwards;
 }
+
+.chat__msg {
+  height: 2000px;
+}
