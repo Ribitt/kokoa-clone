@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
-@import "css/reset.css";
-@import "css/status-bar.css";
-@import "css/header.css";
-@import "css/nav-bar.css";
-@import "css/friend.css";
-@import "css/friends.css";
-@import "css/find.css";
-@import "css/more.css";
-@import "css/settings.css";
-@import "css/chat.css";
-@import "css/mobile.css";
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
