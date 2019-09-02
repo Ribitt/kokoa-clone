@@ -23,7 +23,7 @@
   padding: 0 20px;
 }
 .chats-body {
-  background-image: url("/images/chat-background.png");
+  background-image: url("images/chat-background.png");
   height: 2000px;
   color: black;
 }
