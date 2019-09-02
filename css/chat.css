@@ -1,5 +1,6 @@
 .header-wrapper {
   position: fixed;
+  z-index: 2;
   top: 0px;
   width: 100%;
   padding: 10px 0px;
@@ -22,7 +23,7 @@
   padding: 0 20px;
 }
 .chats-body {
-  background-image: url("C:/nomad-coder/kokoa-clone/images/chat-background.png");
+  background-image: url("/images/chat-background.png");
   height: 2000px;
   color: black;
 }
